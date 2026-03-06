@@ -50,3 +50,29 @@
     transform: translateX(10px);
   }
 }
+
+@keyframes leafSway {
+  0%,
+  100% {
+    transform: rotate(var(--initial-rotate, 0deg));
+  }
+  25% {
+    transform: rotate(calc(var(--initial-rotate, 0deg) + 3deg));
+  }
+  75% {
+    transform: rotate(calc(var(--initial-rotate, 0deg) - 3deg));
+  }
+}
+
+@keyframes rootWave {
+  0%,
+  100% {
+    transform: translateY(0) scaleX(1) scaleY(1);
+  }
+  33% {
+    transform: translateY(-1%) scaleX(1.01) scaleY(0.99);
+  }
+  66% {
+    transform: translateY(1%) scaleX(0.99) scaleY(1.01);
+  }
+}

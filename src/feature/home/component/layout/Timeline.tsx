@@ -262,14 +262,15 @@ const Timeline = () => {
         alt="Bunga Daun"
         width={500}
         height={500}
-        className="absolute -top-[25vw] -right-[12vw] rotate-30 w-[28vw] z-1000 scale-x-[-1]"
+        className="absolute -top-[25vw] -right-[12vw] rotate-30 w-[28vw] z-1000 scale-x-[-1] animate-[leafSway_6s_ease-in-out_infinite]"
+        style={{ "--initial-rotate": "0deg" } as React.CSSProperties}
       />
       <Image
-        src="/Tanaman Menjalar 11.webp"
-        alt="Tanaman Menjalar Bawah Kiri"
+        src="/image 46.webp"
+        alt="Tanaman Menjalar Bawah Kanan"
         width={500}
         height={500}
-        className="absolute top-[-30vw] right-0 w-[40vw] z-0"
+        className="absolute top-[-10vw] right-0 w-[40vw] z-0 animate-[rootWave_8s_ease-in-out_infinite]"
       />
       <Image
         src="/EXCITED@3x 1.webp"

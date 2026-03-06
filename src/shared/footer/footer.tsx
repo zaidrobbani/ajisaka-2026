@@ -40,41 +40,47 @@ const Footer = () => {
         className="absolute bottom-0 left-0 object-cover w-24 sm:w-40 md:w-56 lg:w-80 xl:w-100 z-30"
         width={500}
         height={500}
+        style={{ '--initial-rotate': '0deg' } as React.CSSProperties}
       />
       <Image
         src={"/Bunga Daun 15.png"}
         alt="Bunga Daun"
-        className="block absolute bottom-0 left-0 object-cover w-40 lg:w-64 xl:w-80 z-10"
+        className="block absolute bottom-0 left-0 object-cover w-40 lg:w-64 xl:w-80 z-10 animate-[leafSway_4s_ease-in-out_infinite]"
         width={500}
         height={500}
+        style={{ '--initial-rotate': '0deg' } as React.CSSProperties}
       />
       <Image
         src={"/Bunga Daun 15.png"}
         alt="Bunga Daun"
-        className="block absolute bottom-0 right-0 object-cover w-40 lg:w-64 xl:w-80 z-10 scale-x-[-1]"
+        className="block absolute bottom-0 right-0 object-cover w-40 lg:w-64 xl:w-80 z-10 scale-x-[-1] animate-[leafSway_4s_ease-in-out_infinite]"
         width={500}
         height={500}
+        style={{ '--initial-rotate': '0deg' } as React.CSSProperties}
       />
       <Image
         src={"/Bunga Daun 5.png"}
         alt="Bunga Daun"
-        className="block absolute bottom-0 left-0 object-cover w-52 xl:w-100 z-0"
+        className="block absolute bottom-0 left-0 object-cover w-52 xl:w-100 z-0 animate-[leafSway_4s_ease-in-out_infinite]"
         width={500}
         height={500}
+        style={{ '--initial-rotate': '0deg' } as React.CSSProperties}
       />
       <Image
         src={"/Bunga Daun 5.png"}
         alt="Bunga Daun"
-        className="block absolute bottom-0 right-0 object-cover w-52 xl:w-100 z-0 scale-x-[-1]"
+        className="block absolute bottom-0 right-0 object-cover w-52 xl:w-100 z-0 scale-x-[-1] animate-[leafSway_4s_ease-in-out_infinite]"
         width={500}
         height={500}
+        style={{ '--initial-rotate': '0deg' } as React.CSSProperties}
       />
       <Image
         src={"/Bunga Daun 14.png"}
         alt="Bunga Daun"
-        className="absolute bottom-0 right-0 object-cover w-24 sm:w-40 md:w-56 lg:w-80 xl:w-100 z-30 scale-x-[-1]"
+        className="absolute bottom-0 right-0 object-cover w-24 sm:w-40 md:w-56 lg:w-80 xl:w-100 z-30 scale-x-[-1] "
         width={500}
         height={500}
+        style={{ '--initial-rotate': '0deg' } as React.CSSProperties}
       />
     </footer>
   );
