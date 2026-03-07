@@ -51,7 +51,7 @@ const Navbar = () => {
         {itemsNav.map((item, index) => (
           <span
             key={index}
-            className={`text-xs font-montserrat tracking-[-0.2px] leading-normal cursor-pointer ${isActive(item.name) ? "font-semibold" : "font-light"}`}
+            className={`text-xs font-montserrat tracking-[-0.2px] leading-normal cursor-pointer hover:font-bold transition-all duration-300 ease-in-out ${isActive(item.name) ? "font-semibold" : "font-light"}`}
             onClick={() => router.push(item.href)}
           >
             {item.name}
@@ -60,18 +60,16 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Daftar Button */}
-      <Link
-        className="hidden lg:inline-flex h-auto px-4 py-1.5 items-center rounded-full text-sm font-montserrat font-light cursor-pointer shadow-xl z-50"
+      <button
+        className="hidden lg:inline-flex h-auto px-4 py-1.5 items-center rounded-full text-sm font-montserrat font-light cursor-pointer shadow-xl z-50 hover:font-bold transition-all duration-300 ease-in-out"
         style={{
           background:
             "linear-gradient(90deg, #47427C -10.14%, #9A4183 53.2%, #E18BA6 116.55%)",
         }}
-        href="https://docs.google.com/forms/d/e/1FAIpQLSc29N4NBMPoUesbxuHWJovSBTEtwvdRZELkneA4mJ-kbaIaVA/viewform"
-        target="_blank"
-        rel="noopener noreferrer"
+        onClick={() => router.push("/competition")}
       >
         Daftar Lomba
-      </Link>
+      </button>
 
       {/* Hamburger Button - Mobile/Tablet */}
       <button
@@ -106,18 +104,17 @@ const Navbar = () => {
             </span>
           ))}
           <div className="mx-4 my-2 border-t border-white/20" />
-          <Link
+          <button
             className="mx-4 mb-2 px-4 py-2 rounded-full text-sm font-montserrat font-light cursor-pointer text-center"
             style={{
               background:
                 "linear-gradient(90deg, #47427C -10.14%, #9A4183 53.2%, #E18BA6 116.55%)",
             }}
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc29N4NBMPoUesbxuHWJovSBTEtwvdRZELkneA4mJ-kbaIaVA/viewform"
-            target="_blank"
+            onClick={() => router.push("/competition")}
             rel="noopener noreferrer"
           >
             Daftar Lomba
-          </Link>
+          </button>
         </div>
       </div>
     </nav>

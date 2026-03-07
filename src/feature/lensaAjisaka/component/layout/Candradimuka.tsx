@@ -12,20 +12,20 @@ const Candradimuka: React.FC<{ images: string[] }> = ({ images }) => {
             <div className='w-full flex items-start justify-between absolute -top-[13%] sm:-top-[23%] z-0 pointer-events-none'>
                 <div className='relative w-1/3 sm:w-1/4 '>
                     <Image
-                        src={"/Bunga Daun 8.webp"}
+                        src="/Bunga Daun 8.webp"
                         alt='Bunga Daun'
                         width={500}
                         height={500}
-                        className='w-full h-auto block scale-x-[-1]'
+                        className='w-full h-auto block scale-x-[-1] animate-[flowerSway_4.5s_ease-in-out_infinite]'
                     />
                 </div>
                 <div className='relative w-1/3 sm:w-1/4 '>
                     <Image
-                        src={"/Bunga Daun 8.webp"}
+                        src="/Bunga Daun 8.webp"
                         alt='Bunga Daun'
                         width={500}
                         height={500}
-                        className='w-full h-auto block'
+                        className='w-full h-auto block animate-[flowerSway_5s_ease-in-out_infinite_0.5s]'
                     />
                 </div>
             </div>

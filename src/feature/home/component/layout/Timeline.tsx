@@ -251,11 +251,11 @@ const Timeline = () => {
 
       {/* ===== Corner Decorative Images ===== */}
       <Image
-        src="/Tanaman Menjalar 10.png"
+        src="/Group 61.webp"
         alt="Tanaman Menjalar Kiri"
         width={500}
         height={500}
-        className="absolute top-[17vw] left-[5vw] w-[10vw] sm:w-[8vw] md:w-[7vw] lg:w-[6vw] xl:w-[9vw] z-0"
+        className="absolute top-[17vw] left-[5vw] w-[10vw] sm:w-[8vw] md:w-[7vw] lg:w-[6vw] xl:w-[9vw] z-0 animate-[rootWave_8s_ease-in-out_infinite]"
       />
       <Image
         src="/Bunga Daun 2 (1).png"

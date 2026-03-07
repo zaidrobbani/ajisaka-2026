@@ -25,7 +25,7 @@ const Festival = () => {
             Kesehatan Mental Melalui Komunikasi
           </h1>
           <button
-            className="rounded-full w-full sm:w-auto px-3 sm:px-4 py-1.5 sm:py-2 flex items-center justify-center cursor-pointer text-white text-justify font-montserrat text-xs sm:text-sm whitespace-nowrap"
+            className="rounded-full w-full sm:w-auto px-3 sm:px-4 py-1.5 sm:py-2 flex items-center justify-center cursor-pointer text-white text-justify font-montserrat text-xs sm:text-sm whitespace-nowrap hover:font-bold transition-all duration-300 ease-in-out"
             style={{
               background:
                 "linear-gradient(90deg, #47427C -10.14%, #9A4183 53.2%, #E18BA6 116.55%)",

@@ -11,6 +11,41 @@ const PembinaAjisaka = () => {
                 className='object-cover object-center z-0'
                 priority
             />
+            <div className='w-full flex items-center justify-between absolute top-0'>
+                
+                <div className='w-full'>
+                    <Image
+                        src={"/Group 64.webp"}
+                        alt='Ombak ungu Kiri'
+                        width={500}
+                        height={500}
+                        className="w-1/3 h-auto object-contain -translate-y-1/4 -translate-x-1/6 absolute left-0 top-0 pointer-events-none animate-[wave_6s_ease-in-out_infinite] z-30"
+                    />
+                    <Image
+                        src={"/Group 65.webp"}
+                        alt="Akar Kiri"
+                        width={500}
+                        height={500}
+                        className="w-[clamp(8rem,18vw,20rem)] h-auto object-contain -translate-y-1/20 absolute left-0 top-0 pointer-events-none animate-[rootWave_6s_ease-in-out_infinite] z-2"
+                    />
+                </div>
+                <div className='w-full'>
+                    <Image
+                        src={"/Group 64.webp"}
+                        alt='Ombak ungu Kanan'
+                        width={500}
+                        height={500}
+                        className="w-1/3 h-auto object-contain -translate-y-1/4 translate-x-1/6 absolute right-0 top-0 pointer-events-none animate-[wave_6s_ease-in-out_infinite] z-30 scale-x-[-1]"
+                    />
+                    <Image
+                        src={"/Group 65.webp"}
+                        alt="Akar Kanan"
+                        width={500}
+                        height={500}
+                        className="w-[clamp(8rem,18vw,20rem)] h-auto object-contain -translate-y-1/24 absolute right-0 top-0 pointer-events-none animate-[rootWave_6s_ease-in-out_infinite] scale-x-[-1] z-2"
+                    />
+                </div>
+            </div>
             <div className='w-full flex items-center justify-center h-auto z-10 mt-28 md:mt-40'>
                 <h1 className='text-center font-playfair font-semibold bg-[linear-gradient(102deg,#FBD596_0.77%,#FBC364_22.3%,#FBD596_41.41%,#FBC364_65.41%,#FBD596_87.21%,#FBC364_107.16%)] bg-clip-text text-transparent w-[min(92%,900px)] text-[clamp(2.4rem,7vw,6rem)] leading-[0.95]'>TIM DI BALIK AJISAKA</h1>
             </div>
@@ -50,7 +85,7 @@ const PembinaAjisaka = () => {
                         className='pointer-events-none absolute right-0 top-1/2 z-40 h-[clamp(4.5rem,18vw,20rem)] w-[clamp(4.5rem,18vw,20rem)] translate-x-1/2 -translate-y-1/2 object-cover scale-x-[-1]'
                     />
                     <div className='relative z-30 flex flex-col items-center justify-center rounded-2xl px-4 md:px-8 py-2.5 md:py-3 bg-white bg-[linear-gradient(102deg,#FFC35F_0.77%,#FFAF28_22.3%,#FFC35F_41.41%,#FFAF28_65.41%,#FFC35F_87.21%,#FFAF28_107.16%)]'>
-                        <h3 className='text-center text-primary-100 font-montserrat text-[clamp(1.25rem,2.6vw,1.9rem)] leading-normal tracking-tight font-medium'>Pembina</h3>
+                        <h3 className='text-center text-primary-100 font-montserrat text-[clamp(1.25rem,2.6vw,1.9rem)] leading-normal tracking-tight font-semibold'>Pembina</h3>
                         <h5 className='text-center self-stretch text-primary-100 font-montserrat leading-normal tracking-tight text-[clamp(0.85rem,1.9vw,1.25rem)] font-normal'>Mashita Phitaloka Fandia Purwaningtyas, S.I.P., M.A.</h5>
                     </div>
                 </div>

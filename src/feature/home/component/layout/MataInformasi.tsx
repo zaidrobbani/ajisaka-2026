@@ -48,25 +48,25 @@ const MataInformasi = () => {
       ref={sectionRef as React.RefObject<HTMLOptionElement>}
       className="w-full h-auto flex flex-col items-center justify-center relative"
     >
-        <Image
-          src={"/image 8.webp"}
-          alt="Awan ungu"
-          width={500}
-          height={500}
-          className="object-cover w-32 sm:w-48 md:w-64 lg:w-80 xl:w-110 absolute -top-20 sm:-top-32 md:-top-48 lg:-top-60 xl:-top-70 2xl:-top-78 right-0 z-10"
-        />
-        <Image
-          src={"/image 7 (1).webp"}
-          alt="Awan ungu"
-          width={500}
-          height={500}
-          className="object-cover w-48 sm:w-72 md:w-100 lg:w-140 xl:w-200 absolute -top-20 sm:-top-32 md:-top-48 lg:-top-60 xl:-top-70 left-0 z-10"
-        />
+      <Image
+        src={"/image 8.webp"}
+        alt="Awan ungu"
+        width={500}
+        height={500}
+        className="object-cover w-32 sm:w-48 md:w-64 lg:w-80 xl:w-110 absolute -top-20 sm:-top-32 md:-top-48 lg:-top-60 xl:-top-70 2xl:-top-78 right-0 z-10"
+      />
+      <Image
+        src={"/image 7 (1).webp"}
+        alt="Awan ungu"
+        width={500}
+        height={500}
+        className="object-cover w-48 sm:w-72 md:w-100 lg:w-140 xl:w-200 absolute -top-20 sm:-top-32 md:-top-48 lg:-top-60 xl:-top-70 left-0 z-10"
+      />
       <div ref={contentRef as React.RefObject<HTMLDivElement>}>
         {/* Decorative Clouds - Responsive */}
 
         {/* Header Section - Responsive */}
-        <div className="w-full flex flex-col sm:flex-row items-center sm:items-end justify-center sm:justify-between px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-4 mt-16 sm:mt-24 md:mt-32 lg:mt-[150px] xl:mt-[200px] gap-4 sm:gap-0">
+        <div className="w-full flex flex-col sm:flex-row-reverse items-center sm:items-end justify-center sm:justify-between px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-4 mt-16 sm:mt-24 md:mt-32 lg:mt-37.5 xl:mt-50 gap-4 sm:gap-0">
           <h1 className="text-center sm:text-right text-shadow-[0_10px_8px_rgba(0,0,0,0.3)] font-playfair font-semibold leading-tight bg-[linear-gradient(102deg,#FBD596_0.77%,#FBC364_22.3%,#FBD596_41.41%,#FBC364_65.41%,#FBD596_87.21%,#FBC364BF_107.16%)] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-wide">
             INFORMASI
             <br />
@@ -82,11 +82,11 @@ const MataInformasi = () => {
         </div>
 
         {/* Cards Section - Responsive Grid */}
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6 px-4 sm:px-8 md:px-10 mt-6 sm:mt-8 md:mt-10">
+        <div className="w-full max-w-screen-2xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-7 md:gap-8 lg:gap-10 px-4 sm:px-6 md:px-8 mt-6 sm:mt-8 md:mt-10">
           {mataLombaData.map((item) => (
             <div
               key={item.id}
-              className="flex items-center justify-center py-8 sm:py-12 md:py-16 lg:py-20 xl:py-32 px-4 sm:px-6 md:px-8 flex-col rounded-[24px] sm:rounded-[32px] md:rounded-[40px] lg:rounded-[48px] border-r border-l border-b-2 border-white bg-[rgba(255,255,255,0.10)] backdrop-blur-md hover:shadow-[0_0_20px_4px_rgba(255,255,255,0.5)] transition-shadow duration-300 ease-in-out"
+              className="flex items-center justify-center py-8 sm:py-12 md:py-16 lg:py-20 xl:py-32 px-4 sm:px-6 md:px-8 flex-col rounded-3xl sm:rounded-4xl md:rounded-[40px] lg:rounded-[48px] border-r border-l border-b-2 border-white bg-[rgba(255,255,255,0.10)] backdrop-blur-md hover:shadow-[0_0_20px_4px_rgba(255,255,255,0.5)] transition-shadow duration-300 ease-in-out"
             >
               <Image
                 src={item.image}

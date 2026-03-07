@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/akule/ajisaka-26/src/feature/home/component/layout",
-      "program": "c:/Users/akule/ajisaka-26/src/feature/home/component/layout/build/Debug/outDebug",
+      "cwd": "c:/Users/akule/ajisaka-26/src/app",
+      "program": "c:/Users/akule/ajisaka-26/src/app/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

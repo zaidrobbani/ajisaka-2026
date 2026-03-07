@@ -14,12 +14,12 @@ const Festival = () => {
                 </article>
                 <h5 className="mx-auto max-w-5xl text-justify font-montserrat text-sm sm:text-base md:text-lg font-normal leading-relaxed tracking-[-0.3px] text-white">Link Feeds Instagram Prolog Janamejaya:</h5>
                 <Link
-                    className="rounded-full w-full sm:w-auto px-3 sm:px-4 py-1.5 sm:py-2 flex items-center justify-center cursor-pointer text-white text-justify font-montserrat text-xs sm:text-sm whitespace-nowrap"
+                    className="rounded-full w-full sm:w-auto px-3 sm:px-4 py-1.5 sm:py-2 flex items-center justify-center cursor-pointer text-white text-justify font-montserrat text-xs sm:text-sm whitespace-nowrap hover:font-bold transition-all duration-300 ease-in-out"
                     style={{
                         background:
                         "linear-gradient(90deg, #47427C -10.14%, #9A4183 53.2%, #E18BA6 116.55%)",
                     }}
-                    href={""}
+                    href={"https://www.instagram.com/p/DU5Xp0mgUqp/?igsh=YzI2azdteGhpeHpl"}
                     >
                     <Instagram className="mr-2" />
                     PRESS RELEASE

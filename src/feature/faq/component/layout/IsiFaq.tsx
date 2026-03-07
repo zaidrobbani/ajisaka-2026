@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import React from 'react'
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -106,12 +107,13 @@ const IsiFaq = () => {
                     <h4 className='w-full md:w-2/3 lg:w-3/4 text-white font-playfair text-lg sm:text-2xl md:text-3xl lg:text-4xl font-normal leading-relaxed md:leading-tight'>
                         Dilarang memasukan pertanyaan yang tidak berhubungan dengan Festival Ajisaka dan/atau berhubungan dengan SARA
                     </h4>
-                    <button
-                        className='text-white font-mont px-6 md:px-8 py-3 rounded-full text-sm md:text-lg lg:text-xl font-montserrat font-semibold cursor-pointer text-center w-full md:w-auto hover:opacity-90 transition-opacity whitespace-nowrap shrink-0'
+                    <Link
+                        className='text-white font-mont px-6 md:px-8 py-3 rounded-full text-sm md:text-lg lg:text-xl font-montserrat font-semibold cursor-pointer text-center w-full md:w-auto hover:opacity-90 transition-opacity whitespace-nowrap shrink-0 hover:font-bold z-90  '
                         style={{ background: 'linear-gradient(90deg, #47427C -10.14%, #9A4183 53.2%, #E18BA6 116.55%)' }}
+                        href={"https://docs.google.com/spreadsheets/d/1HFL7F0Z9k5wbCJ9Ph5UVZyM1Hlhilf5V/edit?gid=2005096822#gid=2005096822"}
                     >
                         LINK SPREADSHEET
-                    </button>
+                    </Link>
                 </div>
             </div>
         </section >

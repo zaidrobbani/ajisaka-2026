@@ -17,7 +17,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
                                 alt='ombak ungu kiri'
                                 width={500}
                                 height={500}
-                                className='w-full h-auto block'
+                                className='w-full h-auto block '
                             />
                         </div>
                         <div className='relative w-[50%]'>
@@ -26,7 +26,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
                                 alt='ombak ungu kanan'
                                 width={500}
                                 height={500}
-                                className='w-full h-auto block scale-x-[-1]'
+                                className='w-full h-auto block scale-x-[-1] '
                             />
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
                         alt='akar bawah'
                         width={500}
                         height={500}
-                        className='w-full h-auto block '
+                        className='w-full h-auto block animate-[rootWave_9s_ease-in-out_infinite]'
                     />
                 </div>
                 <div className='relative w-1/2'>
@@ -66,7 +66,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
                         alt='akar bawah'
                         width={500}
                         height={500}
-                        className='w-full h-auto block scale-x-[-1]'
+                        className='w-full h-auto block scale-x-[-1] animate-[rootWave_9s_ease-in-out_infinite]'
                     />
                 </div>
             </div>

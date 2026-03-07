@@ -76,3 +76,16 @@
     transform: translateY(1%) scaleX(0.99) scaleY(1.01);
   }
 }
+
+@keyframes flowerSway {
+  0%,
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(2deg) scaleX(1.02) scaleY(0.99);
+  }
+  75% {
+    transform: rotate(-2deg) scaleX(1.02) scaleY(0.99);
+  }
+}
