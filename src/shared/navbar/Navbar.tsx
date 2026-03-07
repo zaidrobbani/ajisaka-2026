@@ -1,8 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
+import { gsap } from "gsap";
 
 type ItemsNav = {
   name: string;
@@ -11,6 +12,8 @@ type ItemsNav = {
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navRef = useRef<HTMLElement>(null);
+  const lastScrollY = useRef(0);
 
   const router = useRouter();
 
@@ -29,8 +32,41 @@ const Navbar = () => {
     return pathname.startsWith(`/${item.toLowerCase().replace(/\s+/g, "-")}`);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY.current && currentScrollY > 100) {
+        // Scrolling down & passed threshold
+        gsap.to(navRef.current, {
+          y: "-100%",
+          duration: 0.6,
+          ease: "power2.out",
+        });
+      } else {
+        // Scrolling up
+        gsap.to(navRef.current, {
+          y: 0,
+          duration: 0.6,
+          ease: "power2.out",
+        });
+      }
+
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="flex items-center justify-between w-full px-4 sm:px-6 md:px-10 py-4 sm:py-6 md:py-8 mt-1 z-50 relative text-white">
+    <nav
+      ref={navRef}
+      className="fixed top-0 left-0 right-0 w-full flex items-center justify-between px-4 sm:px-6 md:px-10 py-4 sm:py-6 md:py-8 mt-1 z-990 text-white "
+    >
       {/* Logo */}
       <button
         className="w-auto h-auto px-3 sm:px-4 md:px-5 py-1 bg-white flex items-center justify-center rounded-[100px] shadow-md z-50 cursor-pointer"
