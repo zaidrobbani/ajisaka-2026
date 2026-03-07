@@ -1,4 +1,4 @@
-name: Deploy to VPS
+name: CD
 
 on:
   push:
@@ -39,8 +39,7 @@ jobs:
             cd ~/ajisaka-2026
 
             # Pull latest changes
-            git fetch origin
-            git reset --hard origin/main
+            git pull origin main
 
             # Install dependencies
             npm ci --production=false
