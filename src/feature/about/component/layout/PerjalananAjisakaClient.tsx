@@ -16,15 +16,6 @@ const PerjalananAjisakaClient: React.FC<PerjalananAjisakaClientProps> = ({ image
         return [...perjalanan].sort((first, second) => Number(second.years) - Number(first.years))
     }, [perjalanan])
 
-    const renderDescription = (text: string) => {
-        // eslint-disable-next-line react/no-unescaped-entities
-        const formatted = text.replace(/(["""].*?["""])/g, "<span class='font-bold'>$1</span>");
-
-        return (
-            <span dangerouslySetInnerHTML={{ __html: formatted }} />
-        );
-    };
-
     const defaultYear = sortedPerjalanan[0]?.years ?? ''
     const [activeYear, setActiveYear] = useState(defaultYear)
     const [isYearDropdownOpen, setIsYearDropdownOpen] = useState(false)
