@@ -60,14 +60,15 @@ const Navbar = () => {
 
       {/* Desktop Daftar Button */}
       <button
-        className="hidden lg:inline-flex h-auto px-4 py-1.5 items-center rounded-full text-sm font-montserrat font-light cursor-pointer shadow-xl z-50 hover:font-bold transition-all duration-300 ease-in-out"
+        className="hidden lg:inline-flex h-auto px-4 py-1.5 items-center rounded-full text-sm font-montserrat font-light cursor-pointer shadow-xl z-50 hover:font-bold transition-all duration-300 ease-in-out overflow-hidden relative group hover:scale-105 hover:shadow-[0_0_30px_rgba(154,65,131,0.8)]"
         style={{
           background:
             "linear-gradient(90deg, #47427C -10.14%, #9A4183 53.2%, #E18BA6 116.55%)",
         }}
         onClick={() => router.push("/competition")}
       >
-        Daftar Lomba
+        <span className="absolute inset-0 bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.4)_50%,transparent_75%)] -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
+        <span className="relative z-10">Daftar Lomba</span>
       </button>
 
       {/* Hamburger Button - Mobile/Tablet */}
@@ -104,7 +105,7 @@ const Navbar = () => {
           ))}
           <div className="mx-4 my-2 border-t border-white/20" />
           <button
-            className="mx-4 mb-2 px-4 py-2 rounded-full text-sm font-montserrat font-light cursor-pointer text-center"
+            className="mx-4 mb-2 px-4 py-2 rounded-full text-sm font-montserrat font-light cursor-pointer text-center overflow-hidden relative group hover:scale-105 hover:shadow-[0_0_30px_rgba(154,65,131,0.8)] transition-all duration-300"
             style={{
               background:
                 "linear-gradient(90deg, #47427C -10.14%, #9A4183 53.2%, #E18BA6 116.55%)",
@@ -112,7 +113,8 @@ const Navbar = () => {
             onClick={() => router.push("/competition")}
             rel="noopener noreferrer"
           >
-            Daftar Lomba
+            <span className="absolute inset-0 bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.4)_50%,transparent_75%)] -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
+            <span className="relative z-10">Daftar Lomba</span>
           </button>
         </div>
       </div>

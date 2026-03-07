@@ -25,7 +25,7 @@ const Festival = () => {
             Kesehatan Mental Melalui Komunikasi
           </h1>
           <button
-            className="rounded-full w-full sm:w-auto px-3 sm:px-4 py-1.5 sm:py-2 flex items-center justify-center cursor-pointer text-white text-justify font-montserrat text-xs sm:text-sm whitespace-nowrap hover:font-bold transition-all duration-300 ease-in-out"
+            className="rounded-full w-full sm:w-auto px-3 sm:px-4 py-1.5 sm:py-2 flex items-center justify-center cursor-pointer text-white text-justify font-montserrat text-xs sm:text-sm whitespace-nowrap hover:font-bold transition-all duration-300 ease-in-out overflow-hidden relative group hover:scale-105 hover:shadow-[0_0_30px_rgba(154,65,131,0.8)]"
             style={{
               background:
                 "linear-gradient(90deg, #47427C -10.14%, #9A4183 53.2%, #E18BA6 116.55%)",
@@ -35,7 +35,8 @@ const Festival = () => {
                 "https://docs.google.com/document/d/1fTUeMt8VP-2aGyww5G2kINCaDVABuwEqTrkrLfrgJPs/edit?tab=t.0")
             }
           >
-            PRESS RELEASE
+            <span className="absolute inset-0 bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.4)_50%,transparent_75%)] -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
+            <span className="relative z-10">PRESS RELEASE</span>
           </button>
         </div>
         <div className="mx-auto w-full max-w-6xl rounded-3xl sm:rounded-4xl md:rounded-[40px] lg:rounded-[48px] border-b-2 border-r border-l border-white bg-white/10 backdrop-blur-md box-border shadow-[0_4px_4px_rgba(0,0,0,0.25)] px-4 sm:px-6 md:px-8 lg:px-12 py-6 sm:py-8 md:py-10 lg:py-12">

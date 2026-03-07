@@ -22,11 +22,12 @@ const Landing = () => {
 
   // Helper function to render description with bold quoted text
   const renderDescription = (text: string) => {
-    const formatted = text.replace(/(“.*?”)/, "<span class='font-semibold'>$1</span>");
-
-    return (
-      <span dangerouslySetInnerHTML={{ __html: formatted }} />
+    const formatted = text.replace(
+      /(“.*?”)/,
+      "<span class='font-semibold'>$1</span>",
     );
+
+    return <span dangerouslySetInnerHTML={{ __html: formatted }} />;
   };
 
   const dataCompetition: DataCompetition[] = [
@@ -209,13 +210,14 @@ const Landing = () => {
                 activeData.id === dataCompetition.id && (
                   <React.Fragment key={index}>
                     <Link
-                      className="w-full md:w-auto rounded-full flex items-center justify-center px-8 py-3 bg-[linear-gradient(90deg,#47427C_-10.14%,#9A4183_53.2%,#E18BA6_116.55%)] text-white text-center font-montserrat text-sm md:text-base font-semibold whitespace-nowrap shadow-md cursor-pointer hover:font-bold transition-all duration-300 ease-in-out relative z-50"
+                      className="w-full md:w-auto rounded-full flex items-center justify-center px-8 py-3 bg-[linear-gradient(90deg,#47427C_-10.14%,#9A4183_53.2%,#E18BA6_116.55%)] text-white text-center font-montserrat text-sm md:text-base font-semibold whitespace-nowrap shadow-md cursor-pointer transition-all duration-300 ease-in-out relative z-50 overflow-hidden group hover:scale-110 hover:shadow-[0_0_30px_rgba(154,65,131,0.8)] hover:font-extrabold"
                       href={dataCompetition.LinkPendaftaran}
                     >
-                      SUBMITION
+                      <span className="absolute inset-0 bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.4)_50%,transparent_75%)] -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
+                      <span className="relative z-10">SUBMITION</span>
                     </Link>
                     <Link
-                      className="w-full md:w-auto relative px-8 py-3 rounded-full text-white font-bold tracking-widest text-xs md:text-sm bg-transparent text-center"
+                      className="w-full md:w-auto relative px-8 py-3 rounded-full text-white font-bold tracking-widest text-xs md:text-sm bg-transparent text-center group overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(154,65,131,0.6)]"
                       style={{
                         border: "2px solid transparent",
                         backgroundClip: "padding-box",
@@ -223,7 +225,7 @@ const Landing = () => {
                       href={dataCompetition.LinkGuidebook}
                     >
                       <span
-                        className="absolute inset-0 rounded-full pointer-events-none"
+                        className="absolute inset-0 rounded-full pointer-events-none transition-all duration-500 group-hover:animate-[spin_3s_linear_infinite]"
                         style={{
                           padding: "2px",
                           background:
@@ -234,7 +236,8 @@ const Landing = () => {
                           maskComposite: "exclude",
                         }}
                       />
-                      GUIDEBOOK
+                      <span className="absolute inset-0 rounded-full bg-linear-to-r from-[#47427C]/20 via-[#9A4183]/20 to-[#E18BA6]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                      <span className="relative z-10">GUIDEBOOK</span>
                     </Link>
                   </React.Fragment>
                 ),
