@@ -21,29 +21,32 @@ export const useGsapScrollReveal = ({
   start = "top 80%",
 }: Props) => {
   useEffect(() => {
-    if (!sectionRef.current || !contentRef.current) return;
+    const section = sectionRef.current;
+    const content = contentRef.current;
+
+    if (!section || !content) return;
 
     const ctx = gsap.context(() => {
       gsap.fromTo(
-        contentRef.current!.children,
+        content.children,
         {
           opacity: 0,
-          y: y,
+          y,
         },
         {
           opacity: 1,
           y: 0,
-          duration: duration,
+          duration,
           ease: "power2.out",
           stagger: 0.15,
           scrollTrigger: {
-            trigger: sectionRef.current,
-            start: start,
+            trigger: section,
+            start,
             once: true,
           },
         },
       );
-    }, sectionRef);
+    }, section);
 
     return () => ctx.revert();
   }, [sectionRef, contentRef, y, duration, start]);

@@ -17,7 +17,8 @@ const PerjalananAjisakaClient: React.FC<PerjalananAjisakaClientProps> = ({ image
     }, [perjalanan])
 
     const renderDescription = (text: string) => {
-        const formatted = text.replace(/(".*?")/g, "<span class='font-bold'>$1</span>");
+        // eslint-disable-next-line react/no-unescaped-entities
+        const formatted = text.replace(/(["""].*?["""])/g, "<span class='font-bold'>$1</span>");
 
         return (
             <span dangerouslySetInnerHTML={{ __html: formatted }} />
