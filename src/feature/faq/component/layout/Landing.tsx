@@ -20,7 +20,7 @@ const Landing = () => {
                 </div>
                 <div className='w-full max-w-4xl h-auto flex items-center justify-center drop-shadow-2xl mt-10 md:mt-16 relative z-10'>
                     <Image
-                        src={"/image 39.webp"}
+                        src={"/image-39.webp"}
                         alt='FAQ'
                         width={1200}
                         height={500}

@@ -16,14 +16,14 @@ const LandingPage: React.FC<{id: string}> = ({id}) => {
             <div className="flex items-center justify-center w-full h-auto flex-nowrap mb-2">
                 <div className="w-auto h-auto flex items-center justify-center px-4 sm:px-5 md:px-7 py-1 bg-gradient-200 rounded-full shadow-lg relative">
                 <Image
-                    src={"/Matahari 2.png"}
+                    src={"/matahari-2.png"}
                     alt="Matahari"
                     width={500}
                     height={500}
                     className="block w-16 md:w-20 lg:w-24 xl:w-30 object-cover absolute -left-20 sm:-left-24 md:-left-32 lg:-left-40 xl:-left-55 top-1/2 transform -translate-y-1/2 animate-pulse [animation-duration:3s]"
                 />
                 <Image
-                    src={"/Bulan 2.png"}
+                    src={"/bulan-2.png"}
                     alt="Bulan"
                     width={500}
                     height={500}
@@ -35,7 +35,7 @@ const LandingPage: React.FC<{id: string}> = ({id}) => {
                 </div>
             </div>
             <Image
-                src={"/image 36.webp"}
+                src={"/image-36.webp"}
                 alt="Landing Image"
                 width={500}
                 height={500}

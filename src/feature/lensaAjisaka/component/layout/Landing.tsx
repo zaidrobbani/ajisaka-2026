@@ -14,7 +14,7 @@ const Landing = () => {
         <section className='w-full min-h-dvh flex flex-col items-center justify-start text-white relative self-stretch overflow-hidden pb-32 lg:pb-48'>
             <Navbar />
             <Image
-                src={"/image 51.webp"}
+                src={"/image-51.webp"}
                 alt='Ombak hijau pojok atas'
                 width={500}
                 height={500}
@@ -28,14 +28,14 @@ const Landing = () => {
                 priority
             />
             <Image
-                src={"/image 53.webp"}
+                src={"/image-53.webp"}
                 alt='Ombak ungu pojok kanan atas'
                 width={500}
                 height={500}
                 className='w-64 sm:w-80 md:w-96 lg:w-180 absolute object-cover -top-10 lg:-top-25 -right-10 z-10 scale-x-[-1] animate-[rootWave_9s_ease-in-out_infinite]'
             />
             <Image
-                src={"/image 53.webp"}
+                src={"/image-53.webp"}
                 alt='Ombak ungu pojok kiri atas'
                 width={500}
                 height={500}
@@ -44,7 +44,7 @@ const Landing = () => {
             
             <div className='w-full flex flex-col-reverse sm:flex-row items-center justify-center z-20 sm:mt-28 md:mt-32 px-4 '>
                     <Image
-                        src={"/WIRASA 1.png"}
+                        src={"/wirasa-1.png"}
                         alt='WIRASA'
                         width={500}
                         height={500}
@@ -52,7 +52,7 @@ const Landing = () => {
                     />
                 <div className='w-full sm:w-1/3 max-w-4xl flex flex-col items-center sm:items-start justify-center'>
                     <Image
-                        src={"/image 18 (1).webp"}
+                        src={"/image-18-1.webp"}
                         alt='hiasan'
                         width={500}
                         height={500}
@@ -60,7 +60,7 @@ const Landing = () => {
                     />
                     {getCurrentBreakpoint() === 'sm' || getCurrentBreakpoint() === 'xs' ? (
                         <Image 
-                            src={"/image 43.png"}
+                            src={"/image-43.png"}
                             alt='Tulisan Ajisaka'
                             width={800}
                             height={500}
@@ -68,7 +68,7 @@ const Landing = () => {
                         />
                     ): (
                         <Image 
-                            src={"/image 42.webp"}
+                            src={"/image-42.webp"}
                             alt='Tulisan Ajisaka'
                             width={800}
                             height={500}

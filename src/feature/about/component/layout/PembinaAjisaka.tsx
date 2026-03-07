@@ -25,14 +25,14 @@ const PembinaAjisaka = () => {
                 
                 <div className='w-full'>
                     <Image
-                        src={"/Group 64.webp"}
+                        src={"/group-64.webp"}
                         alt='Ombak ungu Kiri'
                         width={500}
                         height={500}
                         className="w-1/3 h-auto object-contain -translate-y-1/4 -translate-x-1/6 absolute left-0 top-0 pointer-events-none animate-[wave_6s_ease-in-out_infinite] z-30"
                     />
                     <Image
-                        src={"/Group 65.webp"}
+                        src={"/group-65.webp"}
                         alt="Akar Kiri"
                         width={500}
                         height={500}
@@ -41,14 +41,14 @@ const PembinaAjisaka = () => {
                 </div>
                 <div className='w-full'>
                     <Image
-                        src={"/Group 64.webp"}
+                        src={"/group-64.webp"}
                         alt='Ombak ungu Kanan'
                         width={500}
                         height={500}
                         className="w-1/3 h-auto object-contain -translate-y-1/4 translate-x-1/6 absolute right-0 top-0 pointer-events-none animate-[wave_6s_ease-in-out_infinite] z-30 scale-x-[-1]"
                     />
                     <Image
-                        src={"/Group 65.webp"}
+                        src={"/group-65.webp"}
                         alt="Akar Kanan"
                         width={500}
                         height={500}
@@ -65,14 +65,14 @@ const PembinaAjisaka = () => {
                         <div className='relative w-1/4 min-w-55 max-w-105 overflow-visible'>
                             <div className='absolute bottom-0 left-0 w-full h-[clamp(14rem,22vw,20.5rem)] rounded-[317px_317px_24px_24px] overflow-hidden'>
                                 <Image
-                                    src={'/Rectangle 19.png'}
+                                    src={'/rectangle-19.png'}
                                     alt='Background pembina'
                                     fill
                                     className='object-cover object-center'
                                 />
                             </div>
                             <Image
-                                src={"/Desain tanpa judul 1.webp"}
+                                src={"/desain-tanpa-judul-1.webp"}
                                 alt='Pembina'
                                 width={500}
                                 height={500}
@@ -82,14 +82,14 @@ const PembinaAjisaka = () => {
                     </div>
                     <div className='relative z-30 mt-2 w-[min(92%,900px)] md:w-3/4 lg:w-2/3'>
                         <Image
-                            src={"/Bunga Daun 10.webp"}
+                            src={"/bunga-daun-10.webp"}
                             alt='Bunga Daun kiri'
                             width={100}
                             height={100}
                             className='pointer-events-none absolute left-0 top-1/2 z-40 h-[clamp(4.5rem,18vw,20rem)] w-[clamp(4.5rem,18vw,20rem)] -translate-x-1/2 -translate-y-1/2 object-cover'
                         />
                         <Image
-                            src={"/Bunga Daun 10.webp"}
+                            src={"/bunga-daun-10.webp"}
                             alt='Bunga Daun kanan'
                             width={100}
                             height={100}

@@ -5,14 +5,14 @@ const HiasanLanding = () => {
     return (
         <React.Fragment>
             <Image
-                src={"/image 3 (1).png"}
+                src={"/image-3-1.png"}
                 alt='hiasan-pojok'
                 width={500}
                 height={500}
                 className='absolute top-0 left-0 w-80 xs:w-120 sm:w-150 md:w-160 lg:w-160 xl:w-200 2xl:w-240 object-cover z-0'
             />
             <Image
-                src={"/Bunga Daun 4.png"}
+                src={"/bunga-daun-4.png"}
                 alt='Bunga Daun'
                 width={500}
                 height={500}
@@ -20,7 +20,7 @@ const HiasanLanding = () => {
                 style={{ '--initial-rotate': '0deg' } as React.CSSProperties}
             />
             <Image
-                src={"/Bunga Daun 3.png"}
+                src={"/bunga-daun-3.png"}
                 alt='Bunga Daun'
                 width={500}
                 height={500}
@@ -28,14 +28,14 @@ const HiasanLanding = () => {
                 style={{ '--initial-rotate': '0deg' } as React.CSSProperties}
             />
             <Image
-                src={"/image 4.png"}
+                src={"/image-4.png"}
                 alt='image 4'
                 width={500}
                 height={500}
                 className='absolute -bottom-20 sm:-bottom-30 md:-bottom-40 lg:-bottom-50 xl:-bottom-60 -right-40 sm:-right-60 md:-right-80 lg:-right-120 xl:-right-135 w-160 xs:w-7xl sm:w-400 md:w-480 lg:w-540 xl:w-600 z-0 object-cover '
             />
             <Image
-                src="/Bunga Daun 1.png"
+                src="/bunga-daun-1.png"
                 alt='Bunga Daun 1'
                 width={500}
                 height={500}
@@ -43,7 +43,7 @@ const HiasanLanding = () => {
                 style={{ '--initial-rotate': '0deg' } as React.CSSProperties}
             />
             <Image
-                src="/Bunga Daun 2.png"
+                src="/bunga-daun-2.png"
                 alt='Bunga Daun 2'
                 width={500}
                 height={500}
@@ -51,7 +51,7 @@ const HiasanLanding = () => {
                 style={{ '--initial-rotate': '3deg' } as React.CSSProperties}
             />
             <Image
-                src="/Bunga Daun 2 (1).png"
+                src="/bunga-daun-2-1.png"
                 alt='Bunga Daun 3'
                 width={500}
                 height={500}

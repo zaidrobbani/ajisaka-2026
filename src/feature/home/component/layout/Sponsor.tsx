@@ -26,7 +26,7 @@ const Sponsor = ({images} : {images: string[]}) => {
                 {/* Decorative Curtains — vw-based so they always scale with viewport */}
                 {/* Left curtain */}
                 <Image
-                    src={"/Tirai 1.png"}
+                    src={"/tirai-1.png"}
                     alt="Tirai Kiri"
                     width={500}
                     height={500}
@@ -38,7 +38,7 @@ const Sponsor = ({images} : {images: string[]}) => {
                 />
                 {/* Right curtain (mirrored) */}
                 <Image
-                    src={"/Tirai 1.png"}
+                    src={"/tirai-1.png"}
                     alt="Tirai Kanan"
                     width={500}
                     height={500}
@@ -51,7 +51,7 @@ const Sponsor = ({images} : {images: string[]}) => {
 
                 {/* Bottom curtain reflections (subtle) */}
                 <Image
-                    src={"/Tirai 1.png"}
+                    src={"/tirai-1.png"}
                     alt="Tirai Kiri Bawah"
                     width={500}
                     height={500}
@@ -62,7 +62,7 @@ const Sponsor = ({images} : {images: string[]}) => {
                     }}
                 />
                 <Image
-                    src={"/Tirai 1.png"}
+                    src={"/tirai-1.png"}
                     alt="Tirai Kanan Bawah"
                     width={500}
                     height={500}
@@ -75,7 +75,7 @@ const Sponsor = ({images} : {images: string[]}) => {
 
                 {/* Pink ornamental border — top row */}
                 <Image
-                    src={"/Pink Atas 2.png"}
+                    src={"/pink-atas-2.png"}
                     alt="Pink atas"
                     width={500}
                     height={500}
@@ -86,7 +86,7 @@ const Sponsor = ({images} : {images: string[]}) => {
                 />
                 {/* Pink ornamental border — bottom row (mirrored) */}
                 <Image
-                    src={"/Pink Atas 2.png"}
+                    src={"/pink-atas-2.png"}
                     alt="Pink bawah"
                     width={500}
                     height={500}

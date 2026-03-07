@@ -10,7 +10,7 @@ const Timeline = () => {
       <div className="w-full absolute -top-6 xs:-top-12 sm:-top-16 md:-top-20 lg:-top-24 xl:-top-28 2xl:-top-32 left-0 pointer-events-none z-990 flex flex-col">
         <div className="w-full leading-0">
           <Image
-            src={"/Gelombang Hijau Atas 3.png"}
+            src={"/gelombang-hijau-atas-3.png"}
             alt="Gelombang Hijau"
             width={1920}
             height={500}
@@ -20,7 +20,7 @@ const Timeline = () => {
         </div>
         <div className="w-full leading-0 -mt-px">
           <Image
-            src={"/Gelombang Hijau Atas 3.png"}
+            src={"/gelombang-hijau-atas-3.png"}
             alt="Gelombang Hijau"
             width={1920}
             height={500}
@@ -32,7 +32,7 @@ const Timeline = () => {
 
       {/* Purple cloud decoration — top left */}
       <Image
-        src="/image 7.png"
+        src="/image-7.png"
         alt="Awan Dekorasi Kiri Atas"
         width={500}
         height={500}
@@ -91,7 +91,7 @@ const Timeline = () => {
 
         {/* Character 1 — ANGRY (fire character) beside ROADSHOW, right side */}
         <Image
-          src="/ANGRY@3x 2 (1).webp"
+          src="/angry3x-2-1.webp"
           alt="Api"
           width={500}
           height={500}
@@ -120,7 +120,7 @@ const Timeline = () => {
 
         {/* Character 2 — EXCITED (yellow character with hat) */}
         <Image
-          src="/EXCITED@3x 1.webp"
+          src="/excited3x-1.webp"
           alt="Excited"
           width={500}
           height={500}
@@ -149,7 +149,7 @@ const Timeline = () => {
 
         {/* Character 3 — SCARED (purple octopus) right side */}
         <Image
-          src="/SCARED@3x 2.webp"
+          src="/scared3x-2.webp"
           alt="Scared"
           width={500}
           height={500}
@@ -178,7 +178,7 @@ const Timeline = () => {
 
         {/* Character 4 — SAD (pink blob) left side */}
         <Image
-          src="/SAD@3x 2.webp"
+          src="/sad3x-2.webp"
           alt="Sad"
           width={500}
           height={500}
@@ -207,7 +207,7 @@ const Timeline = () => {
 
         {/* Character 5 — HAPPY (green character) left side */}
         <Image
-          src="/HAPPY@3x 2.webp"
+          src="/happy3x-2.webp"
           alt="Happy"
           width={500}
           height={500}
@@ -218,7 +218,7 @@ const Timeline = () => {
 
         {/* Character 5b — TENDER (blue bunny) right side */}
         <Image
-          src="/TENDER@3x 2.webp"
+          src="/tender3x-2.webp"
           alt="Tender"
           width={500}
           height={500}
@@ -251,14 +251,14 @@ const Timeline = () => {
 
       {/* ===== Corner Decorative Images ===== */}
       <Image
-        src="/Group 61.webp"
+        src="/group-61.webp"
         alt="Tanaman Menjalar Kiri"
         width={500}
         height={500}
         className="absolute top-[17vw] left-[5vw] w-[10vw] sm:w-[8vw] md:w-[7vw] lg:w-[6vw] xl:w-[9vw] z-0 animate-[rootWave_8s_ease-in-out_infinite]"
       />
       <Image
-        src="/Bunga Daun 2 (1).png"
+        src="/bunga-daun-2-1.png"
         alt="Bunga Daun"
         width={500}
         height={500}
@@ -266,14 +266,14 @@ const Timeline = () => {
         style={{ "--initial-rotate": "0deg" } as React.CSSProperties}
       />
       <Image
-        src="/image 46.webp"
+        src="/image-46.webp"
         alt="Tanaman Menjalar Bawah Kanan"
         width={500}
         height={500}
         className="absolute top-[-10vw] right-0 w-[40vw] z-0 animate-[rootWave_8s_ease-in-out_infinite]"
       />
       <Image
-        src="/EXCITED@3x 1.webp"
+        src="/excited3x-1.webp"
         alt="Jamur Dekorasi Bawah Kanan"
         width={500}
         height={500}

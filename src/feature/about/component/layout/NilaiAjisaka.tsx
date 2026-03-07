@@ -68,7 +68,7 @@ const NilaiAjisaka = () => {
     return (
         <section ref={sectionRef} className='w-full min-h-screen relative flex flex-col items-center justify-start p-7 '>
             <Image
-                src="/Bunga Daun 2 (1).png"
+                src="/bunga-daun-2-1.png"
                 alt="Bunga Daun"
                 width={500}
                 height={500}

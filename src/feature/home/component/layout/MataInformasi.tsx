@@ -49,14 +49,14 @@ const MataInformasi = () => {
       className="w-full h-auto flex flex-col items-center justify-center relative"
     >
       <Image
-        src={"/image 8.webp"}
+        src={"/image-8.webp"}
         alt="Awan ungu"
         width={500}
         height={500}
         className="object-cover w-32 sm:w-48 md:w-64 lg:w-80 xl:w-110 absolute -top-20 sm:-top-32 md:-top-48 lg:-top-60 xl:-top-70 2xl:-top-78 right-0 z-10"
       />
       <Image
-        src={"/image 7 (1).webp"}
+        src={"/image-7-1.webp"}
         alt="Awan ungu"
         width={500}
         height={500}
@@ -73,7 +73,7 @@ const MataInformasi = () => {
             MATA LOMBA
           </h1>
           <Image
-            src={"/image 18.webp"}
+            src={"/image-18.webp"}
             alt="garis unik"
             width={500}
             height={500}

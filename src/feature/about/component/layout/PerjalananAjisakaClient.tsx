@@ -29,7 +29,7 @@ const PerjalananAjisakaClient: React.FC<PerjalananAjisakaClientProps> = ({ image
             <div className='pointer-events-none absolute left-1/2 -translate-x-1/2 w-full flex items-center justify-center top-0 -translate-y-[85%] z-0'>
                 <div className='relative block w-[150%] '>
                     <Image
-                        src={"/Group 42.webp"}
+                        src={"/group-42.webp"}
                         alt='Bunga Daun'
                         width={500}
                         height={500}
@@ -40,7 +40,7 @@ const PerjalananAjisakaClient: React.FC<PerjalananAjisakaClientProps> = ({ image
             </div>
             <div className='pointer-events-none absolute left-0 top-0 w-full -translate-y-[99%] z-0' >
                 <Image
-                    src={"/Gelombang Hijau Atas 3.webp"}
+                    src={"/gelombang-hijau-atas-3.webp"}
                     alt='Gelombang Hijau Atas'
                     width={1920}
                     height={1080}
@@ -128,7 +128,7 @@ const PerjalananAjisakaClient: React.FC<PerjalananAjisakaClientProps> = ({ image
             </div>
             <div className='pointer-events-none absolute left-0 top-full z-10 w-full'>
                 <Image
-                    src={"/Gelombang Hijau Atas 3.webp"}
+                    src={"/gelombang-hijau-atas-3.webp"}
                     alt='Gelombang Hijau Bawah'
                     width={1920}
                     height={1080}

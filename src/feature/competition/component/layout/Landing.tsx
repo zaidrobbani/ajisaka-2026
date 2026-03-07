@@ -91,7 +91,7 @@ const Landing = () => {
     >
       <Navbar />
       <Image
-        src={"/image 44.webp"}
+        src={"/image-44.webp"}
         alt="Ombak ungu pojok kanan atas"
         width={500}
         height={500}
@@ -104,7 +104,7 @@ const Landing = () => {
           </h1>
         </div>
         <Image
-          src={"/image 41.webp"}
+          src={"/image-41.webp"}
           alt="Logo Ajisaka"
           width={500}
           height={500}

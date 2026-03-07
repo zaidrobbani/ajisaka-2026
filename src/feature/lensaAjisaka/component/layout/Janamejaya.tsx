@@ -13,7 +13,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
                     <div className='w-full flex items-end justify-between absolute -bottom-[10%] left-0 z-[-1] pointer-events-none'>
                         <div className='relative w-[50%]'>
                             <Image
-                                src={"/image 10.webp"}
+                                src={"/image-10.webp"}
                                 alt='ombak ungu kiri'
                                 width={500}
                                 height={500}
@@ -22,7 +22,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
                         </div>
                         <div className='relative w-[50%]'>
                             <Image
-                                src={"/image 10.webp"}
+                                src={"/image-10.webp"}
                                 alt='ombak ungu kanan'
                                 width={500}
                                 height={500}
@@ -32,7 +32,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
                     </div>
 
                     <Image
-                        src={"/image 50.webp"}
+                        src={"/image-50.webp"}
                         alt='Ombak Hijau atas'
                         width={1920}
                         height={500}
@@ -41,7 +41,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
                 </div>
                 <div className="w-full leading-0 -mt-px md:-mt-1 lg:-mt-2">
                     <Image
-                        src={"/image 51.webp"}
+                        src={"/image-51.webp"}
                         alt='Ombak Hijau bawah'
                         width={1920}
                         height={500}
@@ -53,7 +53,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
             <div className='w-full flex items-start justify-between absolute -top-[13%] xs:-top-[7%] left-0 z-0 pointer-events-none'>
                 <div className='relative w-1/2'>
                     <Image
-                        src={"/image 53.webp"}
+                        src={"/image-53.webp"}
                         alt='akar bawah'
                         width={500}
                         height={500}
@@ -62,7 +62,7 @@ const Janamejaya: React.FC<{images: string[]}> = ({images}) => {
                 </div>
                 <div className='relative w-1/2'>
                     <Image
-                        src={"/image 53.webp"}
+                        src={"/image-53.webp"}
                         alt='akar bawah'
                         width={500}
                         height={500}

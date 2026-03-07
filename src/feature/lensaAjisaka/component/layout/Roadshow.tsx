@@ -11,7 +11,7 @@ const Roadshow: React.FC<{images: string[]}> = ({images}) => {
             <div className='w-full flex items-start justify-between absolute -top-[13%] sm:-top-[23%] z-0 pointer-events-none'>
                 <div className='relative w-1/3 sm:w-1/4 md:w-1/2'>
                     <Image
-                        src={"/image 54.webp"}
+                        src={"/image-54.webp"}
                         alt='ombak ungu kiri atas'
                         width={500}
                         height={500}
@@ -20,7 +20,7 @@ const Roadshow: React.FC<{images: string[]}> = ({images}) => {
                 </div>
                 <div className='relative w-1/3 sm:w-1/4 md:w-1/2'>
                     <Image
-                        src={"/image 54.webp"}
+                        src={"/image-54.webp"}
                         alt='ombak ungu kanan atas'
                         width={500}
                         height={500}

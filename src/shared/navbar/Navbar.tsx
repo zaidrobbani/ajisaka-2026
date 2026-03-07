@@ -37,7 +37,7 @@ const Navbar = () => {
         onClick={() => router.push("/")}
       >
         <Image
-          src="/Logo Ajisaka.png"
+          src="/logo-ajisaka.png"
           alt="Logo Ajisaka"
           width={500}
           height={500}
