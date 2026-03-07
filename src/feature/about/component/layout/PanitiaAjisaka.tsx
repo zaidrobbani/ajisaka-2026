@@ -1,4 +1,7 @@
+"use client"
+import React from 'react'
 import { organizationData, type Division } from '@/feature/about/data/DivisionData'
+import { useGsapScrollReveal } from '@/lib/useGsapScrollReveal'
 
 const divisionTitleClass = 'w-full rounded-full border border-white/80 bg-white/10 px-4 py-2 md:px-6 md:py-3 text-center font-montserrat text-base md:text-xl font-medium leading-none tracking-tight md:tracking-tight text-white'
 const memberTextClass = 'font-montserrat text-sm md:text-lg font-normal leading-[150%] tracking-tight md:tracking-[-1.2px] text-white'
@@ -61,6 +64,14 @@ const divisionCard = (division: Division) => (
 )
 
 const PanitiaAjisaka = () => {
+    const sectionRef = React.useRef<HTMLElement | null>(null)
+    const contentRef = React.useRef<HTMLElement | null>(null)
+
+    useGsapScrollReveal({
+        sectionRef,
+        contentRef,
+    })
+
     const topRowDivisions = [
         getDivision('Pengurus Harian'),
         getDivision('Divisi Acara'),
@@ -87,9 +98,9 @@ const PanitiaAjisaka = () => {
     const festivalOtherMembers = festivalDivision.members.slice(2)
 
     return (
-        <section className='relative z-10 flex w-full items-center justify-center px-2 md:px-10 pb-10 md:pb-24'>
+        <section ref={sectionRef} className='relative z-10 flex w-full items-center justify-center px-2 md:px-10 pb-10 md:pb-24'>
             <div className='w-full max-w-440 rounded-2xl md:rounded-4xl bg-[linear-gradient(0deg,#47427C_0%,#8178E2_100%)] px-3 md:px-14 py-6 md:py-17.5'>
-                <div className='flex w-full flex-col gap-6 md:gap-10.5'>
+                <div ref={contentRef as React.RefObject<HTMLDivElement>} className='flex w-full flex-col gap-6 md:gap-10.5'>
                     <div className='grid w-full grid-cols-1 md:grid-cols-3 gap-6 md:gap-8'>
                         {topRowDivisions.map((division) => divisionCard(division))}
                     </div>
