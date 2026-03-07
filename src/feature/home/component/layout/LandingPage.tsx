@@ -6,10 +6,8 @@ import Navbar from "@/shared/navbar/Navbar";
 import Gradasi from "../gradasi/Gradasi";
 import HiasanLanding from "../hiasan/HiasanLanding";
 import Landing from "@/assets/Landing";
-import { useRouter } from "next/navigation";
 
 const LandingPage: React.FC<{ id: string }> = ({ id }) => {
-  const router = useRouter();
   return (
     <section className="self-stretch w-full h-screen flex flex-col items-center justify-start text-white relative">
       <HiasanLanding />

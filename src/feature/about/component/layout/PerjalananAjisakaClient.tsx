@@ -17,7 +17,7 @@ const PerjalananAjisakaClient: React.FC<PerjalananAjisakaClientProps> = ({ image
     }, [perjalanan])
 
     const renderDescription = (text: string) => {
-        const formatted = text.replace(/(“.*?”)/, "<span class='font-bold'>$1</span>");
+        const formatted = text.replace(/(".*?")/g, "<span class='font-bold'>$1</span>");
 
         return (
             <span dangerouslySetInnerHTML={{ __html: formatted }} />
