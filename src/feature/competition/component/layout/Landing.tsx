@@ -98,7 +98,7 @@ const Landing = () => {
         height={500}
         className="w-80.5 sm:w-62.5 md:w-100 lg:w-200 absolute object-cover top-0 right-0 z-10 animate-[rootWave_9s_ease-in-out_infinite]"
       />
-      <div className="w-full px-4 md:px-10 h-auto flex flex-col items-start justify-center py-4 gap-4 md:gap-6 relative z-10 mt-6 md:mt-0">
+      <div className="w-full px-4 md:px-10 h-auto flex flex-col items-start justify-center py-4 gap-4 md:gap-6 relative z-10 mt-6 md:mt-18">
         <div className="w-[80%] sm:w-[60%] md:w-auto mt-6 md:mt-10 flex items-center justify-center rounded-full py-2 px-6 bg-gradient-200 shadow-md backdrop-blur-sm">
           <h1 className="text-white font-playfair text-sm sm:text-lg md:text-xl leading-4 xs:leading-normal font-semibold text-center">
             WIRASA: Wira Swarakan Rasa
