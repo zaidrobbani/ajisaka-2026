@@ -50,7 +50,7 @@ const Festival = () => {
           >
             <span className="absolute inset-0 bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.4)_50%,transparent_75%)] -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
             <Instagram className="relative z-10 mr-2" />
-            <span className="relative z-10">PRESS RELEASE</span>
+            <span className="relative z-10">PROLOG JANAMEJAYA</span>
           </Link>
         </div>
       </div>
