@@ -32,7 +32,7 @@ const Festival = () => {
             }}
             onClick={() =>
               (window.location.href =
-                "https://docs.google.com/document/d/1fTUeMt8VP-2aGyww5G2kINCaDVABuwEqTrkrLfrgJPs/edit?tab=t.0")
+                "https://drive.google.com/file/d/1gkO_M5xUBZQSDdLqmrMaH4Tdu4WS7Dsm/view")
             }
           >
             <span className="absolute inset-0 bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.4)_50%,transparent_75%)] -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />

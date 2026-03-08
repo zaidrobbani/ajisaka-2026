@@ -6,7 +6,7 @@ import { createPageMetadata } from "../seo";
 export const metadata: Metadata = createPageMetadata({
   title: "About Us",
   description:
-    "Kenali Festival Ajisaka 2026 lebih dekat: perjalanan, nilai, pembina, dan susunan panitia di balik rangkaian acara.",
+    "Kenali Festival Ajisaka UGM lebih dekat: perjalanan, nilai, pembina, dan susunan panitia di balik rangkaian acara.",
   path: "/about-us",
   keywords: ["Tentang Ajisaka", "Panitia Ajisaka", "Perjalanan Ajisaka"],
 });

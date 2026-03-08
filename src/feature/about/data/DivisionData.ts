@@ -24,7 +24,7 @@ export const organizationData: Division[] = [
   {
     division: "Divisi Acara",
     members: [
-      { role: "Ketua Divisi", name: "Elang Satria Hijriansyah" },
+      { role: "Koordinator Divisi", name: "Elang Satria Hijriansyah" },
       { role: "Subkoordinator Konsep", name: "Saviola Listiawati Susanto" },
       { role: "Subkoordinator Teknis", name: "Ghaitsa Kaila Putti Azzahra" },
       { role: "Anggota Divisi", name: "Ayoedya Arti Intaran" },
@@ -37,7 +37,10 @@ export const organizationData: Division[] = [
   {
     division: "Divisi Festival",
     members: [
-      { role: "Ketua Divisi", name: "Rafael Jatmiko Wahyu Hendro Wibowo" },
+      {
+        role: "Koordinator Divisi",
+        name: "Rafael Jatmiko Wahyu Hendro Wibowo",
+      },
       { role: "Subkoordinator Divisi", name: "Nisrina Syifa Ghaniyya Efendi" },
       { role: "Anggota Divisi", name: "Andromeda Nurul Puspita" },
       { role: "Anggota Divisi", name: "Anindya Christy Putri Damayanti" },
@@ -54,7 +57,7 @@ export const organizationData: Division[] = [
   {
     division: "Divisi Logistik",
     members: [
-      { role: "Ketua Divisi", name: "Alloy Jiwandana Girsang" },
+      { role: "Koordinator Divisi", name: "Alloy Jiwandana Girsang" },
       { role: "Subkoordinator Divisi", name: "Najatya Aisha Hapsari" },
       { role: "Anggota Divisi", name: "Asikha Nur Faradilla" },
       { role: "Anggota Divisi", name: "Fadhilah Hanan Nurhayyan" },
@@ -68,8 +71,11 @@ export const organizationData: Division[] = [
   {
     division: "Divisi Business Development",
     members: [
-      { role: "Ketua Divisi", name: "Marella Shafa Maharani" },
-      { role: "Subkoordinator Sponsorship", name: "Na'imah Qatrunada Fajriyati" },
+      { role: "Koordinator Divisi", name: "Marella Shafa Maharani" },
+      {
+        role: "Subkoordinator Sponsorship",
+        name: "Na'imah Qatrunada Fajriyati",
+      },
       { role: "Subkoordinator Fundraising", name: "Fawwaz Jili Abdad" },
       { role: "Anggota Divisi", name: "Aida Fathima Nailatussyarifa" },
       { role: "Anggota Divisi", name: "Anisha Shafa Naomi" },
@@ -82,7 +88,7 @@ export const organizationData: Division[] = [
   {
     division: "Divisi Roadshow, Konsumsi, dan Medis",
     members: [
-      { role: "Ketua Divisi", name: "Devi Arthilia" },
+      { role: "Koordinator Divisi", name: "Devi Arthilia" },
       { role: "Subkoordinator Konsumsi", name: "Hasan Ibrahim" },
       { role: "Subkoordinator Medis", name: "Ghefira Haula Nisa" },
       { role: "Anggota Divisi", name: "Alodyanna Deandra Quennaura Manda" },
@@ -99,7 +105,7 @@ export const organizationData: Division[] = [
   {
     division: "Divisi Liaison Officer",
     members: [
-      { role: "Ketua Divisi", name: "Bening Ayu Kinasih" },
+      { role: "Koordinator Divisi", name: "Bening Ayu Kinasih" },
       { role: "Subkoordinator Divisi", name: "Juneo Vega Putri Reagan" },
       { role: "Anggota Divisi", name: "Ghea Tsabita Widyatamaka Nizar Bahari" },
       { role: "Anggota Divisi", name: "In Darul Ghiffari Antama" },
@@ -112,8 +118,11 @@ export const organizationData: Division[] = [
   {
     division: "Divisi Public Affairs",
     members: [
-      { role: "Ketua Divisi", name: "Siti Lubna Adlya" },
-      { role: "Subkoordinator Media Partner", name: "Aiesha Divya Kalila Nugroho" },
+      { role: "Koordinator Divisi", name: "Siti Lubna Adlya" },
+      {
+        role: "Subkoordinator Media Partner",
+        name: "Aiesha Divya Kalila Nugroho",
+      },
       { role: "Subkoordinator Media Content", name: "Anasya Alifa Putri" },
       { role: "Anggota Divisi", name: "Andaru Malik Enggarkusuma" },
       { role: "Anggota Divisi", name: "Arum Lailasari" },
@@ -129,9 +138,12 @@ export const organizationData: Division[] = [
   {
     division: "Divisi Media Kreatif",
     members: [
-      { role: "Ketua Divisi", name: "Mutia Syamil" },
+      { role: "Koordinator Divisi", name: "Mutia Syamil" },
       { role: "Subkoordinator Dokumentasi", name: "M. Firdaus Al-Amin" },
-      { role: "Subkoordinator Desain", name: "Sahrani Jade Riyandini Laurasita" },
+      {
+        role: "Subkoordinator Desain",
+        name: "Sahrani Jade Riyandini Laurasita",
+      },
       { role: "Anggota Divisi", name: "Alaric Aksa Apriza" },
       { role: "Anggota Divisi", name: "Alfatha Firraz Rajendra" },
       { role: "Anggota Divisi", name: "Attala Aufarrafi" },
@@ -146,7 +158,7 @@ export const organizationData: Division[] = [
   {
     division: "Mata Lomba Arjuna",
     members: [
-      { role: "Ketua Divisi", name: "Prasista Nasya Zerlinda" },
+      { role: "Koordinator Divisi", name: "Prasista Nasya Zerlinda" },
       { role: "Anggota Divisi", name: "Andari Kayla Nugraheni" },
       { role: "Anggota Divisi", name: "Anisa Desvinta Nuraini" },
       { role: "Anggota Divisi", name: "Damianus Bramantyadira G." },
@@ -157,7 +169,7 @@ export const organizationData: Division[] = [
   {
     division: "Mata Lomba Nakula",
     members: [
-      { role: "Ketua Divisi", name: "Komang Ayu Kirkayaka Amerta Putri" },
+      { role: "Koordinator Divisi", name: "Komang Ayu Kirkayaka Amerta Putri" },
       { role: "Anggota Divisi", name: "Chavvah Nyasha Anugrah" },
       { role: "Anggota Divisi", name: "Nayla Shariha Putri" },
       { role: "Anggota Divisi", name: "Ozora Nirwasita Oentarjo" },
@@ -167,7 +179,7 @@ export const organizationData: Division[] = [
   {
     division: "Mata Lomba Prahasta",
     members: [
-      { role: "Ketua Divisi", name: "Bernadette Gracia Meaza Kyla" },
+      { role: "Koordinator Divisi", name: "Bernadette Gracia Meaza Kyla" },
       { role: "Anggota Divisi", name: "Jihan Tasbih" },
       { role: "Anggota Divisi", name: "Hanifah Alya Diyanti" },
       { role: "Anggota Divisi", name: "Tazkia Putri Zanaria" },
@@ -176,7 +188,7 @@ export const organizationData: Division[] = [
   {
     division: "Mata Lomba Sadewa",
     members: [
-      { role: "Ketua Divisi", name: "Nayla Devira Cahyani" },
+      { role: "Koordinator Divisi", name: "Nayla Devira Cahyani" },
       { role: "Anggota Divisi", name: "Alaricia Raizel Avano" },
       { role: "Anggota Divisi", name: "Azwa Narindra Maharani" },
       { role: "Anggota Divisi", name: "Syadzaa Aqeela Bil Haqq" },

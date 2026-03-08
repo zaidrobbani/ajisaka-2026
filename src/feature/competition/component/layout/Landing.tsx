@@ -214,7 +214,7 @@ const Landing = () => {
                       href={dataCompetition.LinkPendaftaran}
                     >
                       <span className="absolute inset-0 bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.4)_50%,transparent_75%)] -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
-                      <span className="relative z-10">SUBMITION</span>
+                      <span className="relative z-10">PENDAFTARAN</span>
                     </Link>
                     <Link
                       className="w-full md:w-auto relative px-8 py-3 rounded-full text-white font-bold tracking-widest text-xs md:text-sm bg-transparent text-center group overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(154,65,131,0.6)]"
@@ -237,7 +237,7 @@ const Landing = () => {
                         }}
                       />
                       <span className="absolute inset-0 rounded-full bg-linear-to-r from-[#47427C]/20 via-[#9A4183]/20 to-[#E18BA6]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                      <span className="relative z-10">GUIDEBOOK</span>
+                      <span className="relative z-10">PANDUAN LOMBA</span>
                     </Link>
                   </React.Fragment>
                 ),

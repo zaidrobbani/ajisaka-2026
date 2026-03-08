@@ -2,6 +2,7 @@
 import { useRef } from "react";
 import Image from "next/image";
 import { useGsapScrollReveal } from "@/lib/useGsapScrollReveal";
+import { useRouter } from "next/navigation";
 
 const mataLombaData = [
   {
@@ -43,6 +44,8 @@ const MataInformasi = () => {
     contentRef,
   });
 
+  const router = useRouter();
+
   return (
     <section
       ref={sectionRef as React.RefObject<HTMLOptionElement>}
@@ -66,8 +69,11 @@ const MataInformasi = () => {
         {/* Decorative Clouds - Responsive */}
 
         {/* Header Section - Responsive */}
-        <div className="w-full flex flex-col sm:flex-row-reverse items-center sm:items-end justify-center sm:justify-between px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-4 mt-16 sm:mt-24 md:mt-32 lg:mt-37.5 xl:mt-50 gap-4 sm:gap-0">
-          <h1 className="text-center sm:text-right text-shadow-[0_10px_8px_rgba(0,0,0,0.3)] font-playfair font-semibold leading-tight bg-[linear-gradient(102deg,#FBD596_0.77%,#FBC364_22.3%,#FBD596_41.41%,#FBC364_65.41%,#FBD596_87.21%,#FBC364BF_107.16%)] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-wide">
+        <div
+          className="w-full flex flex-col sm:flex-row-reverse items-center sm:items-end justify-center sm:justify-between px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-4 mt-16 sm:mt-24 md:mt-32 lg:mt-37.5 xl:mt-50 gap-4 sm:gap-0 cursor-pointer"
+          onClick={() => router.push("/competition")}
+        >
+          <h1 className="text-center sm:text-right text-shadow-[0_10px_8px_rgba(0,0,0,0.3)] font-playfair font-semibold leading-tight bg-[linear-gradient(102deg,#FBD596_0.77%,#FBC364_22.3%,#FBD596_41.41%,#FBC364_65.41%,#FBD596_87.21%,#FBC364BF_107.16%)] bg-clip-text text-transparent text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-wide transition-all duration-300 ease-in-out hover:drop-shadow-[0_0_25px_rgba(251,195,100,0.9)] hover:brightness-110">
             INFORMASI
             <br />
             MATA LOMBA

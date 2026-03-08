@@ -6,7 +6,7 @@ import { createPageMetadata } from "../seo";
 export const metadata: Metadata = createPageMetadata({
   title: "Competition",
   description:
-    "Informasi lengkap kompetisi Festival Ajisaka 2026: kategori lomba, detail pelaksanaan, serta alur pendaftaran peserta.",
+    "Informasi lengkap kompetisi Festival Ajisaka UGM: kategori lomba, detail pelaksanaan, serta alur pendaftaran peserta.",
   path: "/competition",
   keywords: [
     "Lomba Ajisaka",

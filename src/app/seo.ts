@@ -8,14 +8,14 @@ type PageMetadataConfig = {
 };
 
 export const siteConfig = {
-  name: "Festival Ajisaka 2026",
+  name: "Festival Ajisaka UGM",
   description:
-    "Festival Ajisaka 2026 menghadirkan kompetisi, lensa kegiatan, dan informasi lengkap seputar rangkaian acara Ajisaka.",
+    "Festival Ajisaka UGM menghadirkan kompetisi, lensa kegiatan, dan informasi lengkap seputar rangkaian acara Ajisaka.",
   url: "https://ajisaka2026.com",
   ogImage: "/Logo%20Ajisaka.png",
   locale: "id_ID",
   keywords: [
-    "Festival Ajisaka 2026",
+    "Festival Ajisaka UGM",
     "Ajisaka UGM",
     "Kompetisi Ajisaka",
     "Lensa Ajisaka",

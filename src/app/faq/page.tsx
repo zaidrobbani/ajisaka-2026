@@ -6,11 +6,11 @@ import { createPageMetadata } from "../seo";
 export const metadata: Metadata = createPageMetadata({
   title: "FAQ",
   description:
-    "Temukan jawaban cepat seputar Festival Ajisaka 2026, mulai dari informasi acara, kompetisi, hingga hal teknis pendaftaran.",
+    "Temukan jawaban cepat seputar Festival Ajisaka UGM, mulai dari informasi acara, kompetisi, hingga hal teknis pendaftaran.",
   path: "/faq",
   keywords: [
     "FAQ Ajisaka",
-    "Pertanyaan Ajisaka 2026",
+    "Pertanyaan Ajisaka UGM",
     "Informasi pendaftaran Ajisaka",
   ],
 });
