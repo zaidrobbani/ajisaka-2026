@@ -108,11 +108,12 @@ const IsiFaq = () => {
                         Dilarang memasukan pertanyaan yang tidak berhubungan dengan Festival Ajisaka dan/atau berhubungan dengan SARA
                     </h4>
                     <Link
-                        className='text-white font-mont px-6 md:px-8 py-3 rounded-full text-sm md:text-lg lg:text-xl font-montserrat font-semibold cursor-pointer text-center w-full md:w-auto hover:opacity-90 transition-opacity whitespace-nowrap shrink-0 hover:font-bold z-90  '
+                        className='text-white font-mont px-6 md:px-8 py-3 rounded-full text-sm md:text-lg lg:text-xl font-montserrat font-semibold cursor-pointer text-center w-full md:w-auto whitespace-nowrap shrink-0 hover:font-bold z-90 overflow-hidden relative group hover:scale-105 hover:shadow-[0_0_30px_rgba(154,65,131,0.8)] transition-all duration-300'
                         style={{ background: 'linear-gradient(90deg, #47427C -10.14%, #9A4183 53.2%, #E18BA6 116.55%)' }}
                         href={"https://docs.google.com/spreadsheets/d/1HFL7F0Z9k5wbCJ9Ph5UVZyM1Hlhilf5V/edit?gid=2005096822#gid=2005096822"}
                     >
-                        LINK SPREADSHEET
+                        <span className="absolute inset-0 bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.4)_50%,transparent_75%)] -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
+                        <span className="relative z-10">LINK SPREADSHEET</span>
                     </Link>
                 </div>
             </div>
