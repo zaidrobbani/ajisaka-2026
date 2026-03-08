@@ -37,9 +37,9 @@ export const defaultMetadata: Metadata = {
   creator: siteConfig.name,
   publisher: siteConfig.name,
   icons: {
-    icon: "/favicon.ico?v=20260308",
-    shortcut: "/favicon.ico?v=20260308",
-    apple: "/favicon.ico?v=20260308",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   alternates: {
     canonical: "/",
