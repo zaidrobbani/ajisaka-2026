@@ -20,7 +20,7 @@ const Sponsor = ({images} : {images: string[]}) => {
         <section ref={sectionRef} className="w-full h-auto flex flex-col items-center justify-start relative">
             <Link href={"https://forms.gle/R9rWTXLX6vdeMUQw9"} className="w-[80%] flex items-center justify-center px-6 sm:px-10 md:px-14 lg:px-20 py-1 sm:py-2.5 md:py-3 rounded-full bg-[linear-gradient(90deg,#47427C_-10.14%,#9A4183_53.2%,#E18BA6_116.55%),linear-gradient(0deg,rgba(212,61,106,0.65)_0%,rgba(212,61,106,0.65)_100%)] text-white text-center font-montserrat font-normal hover:font-semibold text-xs sm:text-base md:text-lg lg:text-xl tracking-wide mt-5 lg:mt-8 gap-3 group z-90 overflow-hidden relative hover:scale-105 hover:shadow-[0_0_30px_rgba(154,65,131,0.8)] transition-all duration-300">
                 <span className="absolute inset-0 bg-[linear-gradient(110deg,transparent_25%,rgba(255,255,255,0.4)_50%,transparent_75%)] -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out" />
-                <span className="relative z-10">LINK SUBMISSION FILM</span>
+                <span className="relative z-10">FESTIVAL SUBMISSION</span>
                 <FaArrowRightLong className="relative z-10 group-hover:animate-[bounceX_1s_ease-in-out_infinite]"/>
             </Link>
             <div className="w-full h-auto flex flex-row items-center justify-between absolute top-12 left-0 right-0 z-10 ">
